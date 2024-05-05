@@ -15,6 +15,8 @@ The scripts under `scripts/` can be used to run the experiments. For example, to
 
 ```bash scripts/bayesian_ds/no_prior/hanna.sh```
 
+Please note that the Bayesian experiments may take a long time to run.
+
 The script will run the experiment and save the results to `./results/`. To process the results, please refer to the "process logs" section in `experiments.ipynb`.
 
 ## List of experiments

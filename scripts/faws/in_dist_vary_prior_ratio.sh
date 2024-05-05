@@ -2,7 +2,7 @@
 
 datasets=("Hanna" "Meva")
 
-for ratio in $(seq 0.0 0.1 1.0)
+for ratio in $(seq 0.1 0.1 1.0)
 do
     for dataset in ${datasets[@]}
     do
