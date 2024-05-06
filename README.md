@@ -11,6 +11,10 @@ Code for analyzing the datasets can be found in `experiments.ipynb`.
 
 ## Run experiments
 
+First, install the required packages:
+
+```pip install -r requirements.txt```
+
 The scripts under `scripts/` can be used to run the experiments. For example, to run the Bayesian DS experiment for Hanna with no prior, run the following command:
 
 ```bash scripts/bayesian_ds/no_prior/hanna.sh```
@@ -18,22 +22,3 @@ The scripts under `scripts/` can be used to run the experiments. For example, to
 Please note that the Bayesian experiments may take a long time to run.
 
 The script will run the experiment and save the results to `./results/`. To process the results, please refer to the "process logs" section in `experiments.ipynb`.
-
-## List of experiments
-### Hanna
-#### Bayesian DS
-- [x] no prior
-- [x] ood prior
-#### FAWS
-- [x] in-dist prior vary prior ratio
-- [x] in-dist prior cross validation
-- [x] ood prior
-
-### Meva
-#### Bayesian DS
-- [x] no prior
-- [x] ood prior
-#### FAWS
-- [x] in-dist prior vary prior ratio
-- [x] in-dist prior cross validation
-- [x] ood prior

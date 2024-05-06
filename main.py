@@ -3,7 +3,6 @@ import dataset_loaders
 from argparse import ArgumentParser
 from estimators import estimate_q, estimate_p
 from calibrators import calibrate_q
-import openai
 import itertools
 import numpy as np
 
